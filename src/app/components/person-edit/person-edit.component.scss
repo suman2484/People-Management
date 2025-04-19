@@ -1,0 +1,30 @@
+.person-edit {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+.person-edit label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.person-edit input {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.person-edit button {
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.person-edit button:hover {
+  background-color: #218838;
+}

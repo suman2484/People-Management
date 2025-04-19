@@ -1,0 +1,19 @@
+<form (ngSubmit)="onSubmit()" #personForm="ngForm">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" id="name" class="form-control" [(ngModel)]="person.name" name="name" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="age">Age</label>
+    <input type="number" id="age" class="form-control" [(ngModel)]="person.age" name="age" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" class="form-control" [(ngModel)]="person.email" name="email" required>
+  </div>
+  
+  <button type="submit" class="btn btn-primary">Save</button>
+  <a routerLink="/people" class="btn btn-secondary">Cancel</a>
+</form>
